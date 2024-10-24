@@ -1,5 +1,6 @@
 # MPI_Repo
 
+<<<<<<< HEAD
 ## Module 2
 
 ## Analysis
@@ -25,3 +26,15 @@ After applying these optimizations, the profiling output reflected a marginal in
 
 ## Parallelization, observation, challenges faced, and conclusion.
 The total execution time for the optimized and parallelized code was measured at 7.6761 seconds. This indicates that, despite optimizations, the new implementation did not achieve a reduction in overall execution time compared to the original version.
+=======
+## Analysis
+I couldn't run it on my jupyter notebook but I was able to run it on vscode. I feel this is what I could do I just used MPI_send and MPI_Receive which serves as a blocking communication which basically the  prints number of rows to each process, and the other processes receive these rows. I also used 2 nodes to execute the program.
+
+## Result
+Resultant Matrix C:
+-1526224497 828338432 
+76 100 
+0 0 
+
+Im not really sure but this is what I was able to output using blocking communication.
+>>>>>>> e8984c1cd787ac6a27a31e6d538df364bf0a903e
